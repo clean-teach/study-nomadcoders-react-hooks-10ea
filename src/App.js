@@ -4,6 +4,8 @@ import UseStateBeginUgly from "./useStateBegin";
 import UseTabsComponent from "./useTabs";
 import UseTitleComponent from "./useTitle";
 import UseClickComponent from "./useClick";
+import UseConfirmComponent from "./useConfirm";
+import UsePreventLeaveComponent from "./usePreventLeave";
 
 function App() {
   return (
@@ -31,6 +33,16 @@ function App() {
       <li>
         <h2>useClick</h2>
         <UseClickComponent />
+        <hr />
+      </li>
+      <li>
+        <h2>useConfirm</h2>
+        <UseConfirmComponent />
+        <hr />
+      </li>
+      <li>
+        <h2>usePreventLeave</h2>
+        <UsePreventLeaveComponent />
         <hr />
       </li>
     </ul>
