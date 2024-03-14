@@ -2,6 +2,7 @@ import React from "react";
 import UseInputComponent from "./useInput";
 import UseStateBeginUgly from "./useStateBegin";
 import UseTabsComponent from "./useTabs";
+import UseTitleComponent from "./useTitle";
 
 function App() {
   return (
@@ -19,6 +20,11 @@ function App() {
       <li>
         <h2>useTabs</h2>
         <UseTabsComponent />
+        <hr />
+      </li>
+      <li>
+        <h2>useTitle</h2>
+        <UseTitleComponent />
         <hr />
       </li>
     </ul>
