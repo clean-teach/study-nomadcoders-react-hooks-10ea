@@ -3,6 +3,7 @@ import UseInputComponent from "./useInput";
 import UseStateBeginUgly from "./useStateBegin";
 import UseTabsComponent from "./useTabs";
 import UseTitleComponent from "./useTitle";
+import UseClickComponent from "./useClick";
 
 function App() {
   return (
@@ -25,6 +26,11 @@ function App() {
       <li>
         <h2>useTitle</h2>
         <UseTitleComponent />
+        <hr />
+      </li>
+      <li>
+        <h2>useClick</h2>
+        <UseClickComponent />
         <hr />
       </li>
     </ul>
