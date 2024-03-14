@@ -10,7 +10,6 @@ function UsePreventLeaveComponent() {
   const { enablePrevent, disablePrevent } = usePreventLeave();
 
   useEffect(() => {
-    console.log(isProtect);
     if (isProtect) {
       enablePrevent();
     } else {

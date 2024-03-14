@@ -6,6 +6,7 @@ import UseTitleComponent from "./useTitle";
 import UseClickComponent from "./useClick";
 import UseConfirmComponent from "./useConfirm";
 import UsePreventLeaveComponent from "./usePreventLeave";
+import UseBeforeLeaveComponent from "./useBeforeLeave";
 
 function App() {
   return (
@@ -43,6 +44,11 @@ function App() {
       <li>
         <h2>usePreventLeave</h2>
         <UsePreventLeaveComponent />
+        <hr />
+      </li>
+      <li>
+        <h2>useBeforeLeave</h2>
+        <UseBeforeLeaveComponent />
         <hr />
       </li>
     </ul>
