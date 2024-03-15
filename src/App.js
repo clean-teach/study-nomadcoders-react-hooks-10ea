@@ -9,6 +9,8 @@ import UsePreventLeaveComponent from "./usePreventLeave";
 import UseBeforeLeaveComponent from "./useBeforeLeave";
 import UseFadeInComponent from "./useFadeIn";
 import UseNetworkComponent from "./useNetwork";
+import UseScrollComponent from "./useScroll";
+import UseFullscreenComponent from "./useFullscreen";
 
 function App() {
   return (
@@ -61,6 +63,16 @@ function App() {
       <li>
         <h2>useNetwork</h2>
         <UseNetworkComponent />
+        <hr />
+      </li>
+      <li>
+        <h2>useScroll</h2>
+        <UseScrollComponent />
+        <hr />
+      </li>
+      <li>
+        <h2>useFullscreen</h2>
+        <UseFullscreenComponent />
         <hr />
       </li>
     </ul>
