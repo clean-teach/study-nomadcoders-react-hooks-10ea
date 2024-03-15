@@ -7,6 +7,8 @@ import UseClickComponent from "./useClick";
 import UseConfirmComponent from "./useConfirm";
 import UsePreventLeaveComponent from "./usePreventLeave";
 import UseBeforeLeaveComponent from "./useBeforeLeave";
+import UseFadeInComponent from "./useFadeIn";
+import UseNetworkComponent from "./useNetwork";
 
 function App() {
   return (
@@ -49,6 +51,16 @@ function App() {
       <li>
         <h2>useBeforeLeave</h2>
         <UseBeforeLeaveComponent />
+        <hr />
+      </li>
+      <li>
+        <h2>useFadeIn</h2>
+        <UseFadeInComponent />
+        <hr />
+      </li>
+      <li>
+        <h2>useNetwork</h2>
+        <UseNetworkComponent />
         <hr />
       </li>
     </ul>
