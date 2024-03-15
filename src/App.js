@@ -11,6 +11,7 @@ import UseFadeInComponent from "./useFadeIn";
 import UseNetworkComponent from "./useNetwork";
 import UseScrollComponent from "./useScroll";
 import UseFullscreenComponent from "./useFullscreen";
+import UseNotificationComponent from "./useNotification";
 
 function App() {
   return (
@@ -73,6 +74,11 @@ function App() {
       <li>
         <h2>useFullscreen</h2>
         <UseFullscreenComponent />
+        <hr />
+      </li>
+      <li>
+        <h2>useNotification</h2>
+        <UseNotificationComponent />
         <hr />
       </li>
     </ul>
