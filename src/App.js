@@ -12,6 +12,7 @@ import UseNetworkComponent from "./useNetwork";
 import UseScrollComponent from "./useScroll";
 import UseFullscreenComponent from "./useFullscreen";
 import UseNotificationComponent from "./useNotification";
+import UseAxiosComponent from "./useAxios";
 
 function App() {
   return (
@@ -79,6 +80,11 @@ function App() {
       <li>
         <h2>useNotification</h2>
         <UseNotificationComponent />
+        <hr />
+      </li>
+      <li>
+        <h2>useAxios</h2>
+        <UseAxiosComponent />
         <hr />
       </li>
     </ul>
